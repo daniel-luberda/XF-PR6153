@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XF_PR6153" x:Class="XF_PR6153.MainPage">
+    <ListView x:Name="_list" HasUnevenRows="false">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Image Source="tenor.gif"/>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
